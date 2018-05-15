@@ -1,0 +1,28 @@
+.pad-left {
+	margin-left: 6px;
+}
+
+.well div {
+	color: #bbb;
+}
+
+.hoverwell {
+	background-color: #485563;
+}
+
+.hoverwell:hover {
+  cursor: pointer;
+}
+
+.thumbnail {
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.event-column {
+	min-height: 240px;
+}
+
+.bold-element {
+	font-weight: bold;
+}

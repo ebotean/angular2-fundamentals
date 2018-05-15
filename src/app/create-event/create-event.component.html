@@ -1,0 +1,31 @@
+<div class="">
+	<form #form class="form" method="post">
+		<div class="form-group">
+			<label for="eventNameId">Event name</label>
+			<input id="eventNameId" class="form-control" type="text" ([ngModel])="event.name" name="eventName" />
+		</div>
+		<div class="form-group">
+			<label for="eventDateId">Date</label>
+			<input id="eventDateId" class="form-control" type="text" ([ngModel])="event.date" name="eventDate" />
+		</div>
+		<div class="form-group">
+			<label for="eventTimeId">Time</label>
+			<input id="eventTimeId" class="form-control" type="text" ([ngModel])="event.time" name="eventTime" />
+		</div>
+		<div class="form-group">
+			<label for="eventLocationAddressId">Address</label>
+			<input id="eventLocationAddressId" class="form-control" type="text" ([ngModel])="event.location.address" name="eventLocationAddress" />
+		</div>
+		<div class="form-group">
+			<label for="eventLocationCityId">City</label>
+			<input id="eventLocationCityId" class="form-control" type="text" ([ngModel])="event.location.city" name="eventLocationCity" />
+		</div>
+		<div class="form-group">
+			<label for="eventLocationCountryId">Country</label>
+			<input id="eventLocationCountryId" class="form-control" type="text" ([ngModel])="event.location.country" name="eventLocationCountry" />
+		</div>
+	</form>
+
+	<button class="btn btn-primary">Save</button>
+	<button class="btn btn-default" (click)="cancel()">Cancel</button>
+</div>
